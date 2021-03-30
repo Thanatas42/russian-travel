@@ -1,0 +1,15 @@
+.website {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  padding-top: 32px;
+  margin: auto;
+  max-width: calc(100% - 5%);
+}
+
+@media screen and (min-width: 768px) {
+  .website {
+    margin: 0;
+    padding: 0 0 48px;
+  }
+}

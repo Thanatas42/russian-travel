@@ -1,0 +1,27 @@
+.header {
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: calc(100vw - 10%);
+  margin: auto;
+  padding-top: 16px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    max-width: calc(100vw - 12.5%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    max-width: calc(100vw - 96px);
+  }
+}

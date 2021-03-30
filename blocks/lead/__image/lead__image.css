@@ -1,0 +1,4 @@
+.lead__image {
+  width: 100%;
+  box-sizing: border-box; /*нужно ли оно здесь? я считаю нет */
+}

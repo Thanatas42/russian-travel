@@ -1,0 +1,14 @@
+.cover__background {
+  -o-object-fit: cover;
+  object-fit: cover;
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  opacity: .7;
+  z-index: -1;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}

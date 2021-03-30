@@ -1,0 +1,26 @@
+.intro {
+  margin: auto;
+  padding-top: 64px;
+  width: calc(100vw - 32px);
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    max-width: calc(100vw - 48px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding-top: 92px;
+    max-width: calc(1024px - 96px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    max-width: calc(1280px - 296px);
+  }
+}

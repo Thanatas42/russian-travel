@@ -1,0 +1,25 @@
+.intro__title {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+  margin: 0;
+  max-width: 250px; /*почему то при размере 288px как в брифе, (НЕ) не переносится на след. строку */
+}
+
+@media screen and (min-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 1.07;
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    max-width: 690px;
+  }
+}
