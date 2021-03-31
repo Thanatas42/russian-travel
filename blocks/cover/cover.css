@@ -1,28 +1,22 @@
 .cover {
+  background:
+    url("../../../image/cover/cover-trains.jpg")
+    no-repeat center / cover;
   margin: auto;
   position: relative;
   max-width: 100%;
-  min-height: 200px;
-}
-
-.cover:hover .cover__background {
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
-  opacity: .3;
+  height: 200px;
+  z-index: 0;
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    max-width: 100vw;
     min-height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    margin-top: 92px;
-    max-width: 100vw;
     min-height: 640px;
   }
 }

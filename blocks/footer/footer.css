@@ -31,6 +31,6 @@
     padding-top: 92px;
     padding-right: 0;
     padding-left: 0;
-    width: calc(100vw - 96px);
+    width: calc(1280px - 96px);
   }
 }

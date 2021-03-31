@@ -1,7 +1,7 @@
 .cover__title {
   margin: auto;
   padding: 33px 0 16px;
-  max-width: 240px;
+  max-width: 288px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -11,6 +11,8 @@
   color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  opacity: 1;
+  z-index: 2;
 }
 
 @media screen and (min-width: 768px) {

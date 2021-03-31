@@ -1,14 +1,31 @@
 .cover__background {
-  -o-object-fit: cover;
-  object-fit: cover;
   position:absolute;
   height:100%;
   width:100%;
   top:0;
   left:0;
-  opacity: .7;
   z-index: -1;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
+  color:#2A2C2F;
+  opacity: 0.3;
+}
+
+.cover__background::before {
+	content: ""; /* Обязательное свойство для псевдоэлементов :before / :after */
+	display: block;
+	position: absolute; /* Позиционируем относительно родителя */
+	top: 0;
+	left: 0;
+	/* Растягиваем на всю ширину и высоту */
+	width: 100%;
+	height: 100%;
+	background-color:#2A2C2F; /* Задаём полупрозрачный фон */
+	z-index: -1; /* Убираем под текст */
+}
+
+.cover__background:hover {
+  opacity: 0.8;
+  border: 1px solid red;
 }

@@ -16,8 +16,8 @@
   <header class="header">
     <img class="header__logo" src="./image/header-logo.svg" alt="Россия">
     <ul class="header__lang-box">
-      <li><a class="header__lang-link header__lang-link_underline_active">Ru</a></li>
-      <li><a class="header__lang-link">En</a></li>
+      <li><a class="header__lang-link">Ru</a></li>
+      <li><a class="header__lang-link underline-none">En</a></li>
     </ul>
   </header>
   <main>
@@ -26,7 +26,6 @@
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src="./image/lead-polka.jpg" alt="Псков-Улан-Удэ">
       <p class="lead__caption">ваша полка — верхняя</p>
-      <!--Пробовал figure, не понравилось)-->
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -144,11 +143,12 @@
       </article>
     </section>
     <section class="cover">
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-      </p>
-      <img class="cover__background" src="./image/cover/cover-trains.jpg" alt="Фон с поездами">
-      <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"></a>
+      <a class="underline-none" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+        <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash;
+          путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+          <div class="cover__background"></div>
+      </a>
     </section>
   </main>
   <footer class="footer">
