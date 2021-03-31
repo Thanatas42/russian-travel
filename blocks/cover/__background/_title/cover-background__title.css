@@ -1,4 +1,4 @@
-.cover-background__title {
+.cover__background-title {
   margin: auto;
   padding: 33px 0 16px;
   max-width: 288px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .cover-background__title {
+  .cover__background-title {
     padding: 115px 0 32px;
     max-width: 560px;
     font-size: 72px;
@@ -29,13 +29,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .cover-background__title {
+  .cover__background-title {
     padding-top: 195px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .cover-background__title {
+  .cover__background-title {
     padding-top: 245px;
   }
 }
