@@ -7,7 +7,11 @@
   font-size: 32px;
   line-height: 1.09;
   margin: 0;
-  max-width: 250px; /*почему то при размере 288px как в брифе, (НЕ) не переносится на след. строку */
+  max-width: 250px;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 @media screen and (min-width: 768px) {

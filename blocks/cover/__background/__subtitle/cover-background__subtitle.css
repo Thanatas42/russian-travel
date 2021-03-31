@@ -1,4 +1,4 @@
-.cover__subtitle {
+.сover-background__subtitle {
   margin: auto;
   max-width: 280px;
   font-family: 'Inter', Arial, sans-serif;
@@ -10,10 +10,14 @@
   color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .cover__subtitle {
+  .сover-background__subtitle {
     max-width: 360px;
     font-size: 18px;
     line-height: 1.22;

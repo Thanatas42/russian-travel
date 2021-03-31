@@ -9,11 +9,11 @@
   -o-transition: .3s;
   transition: .3s;
   color:#2A2C2F;
-  opacity: 0.3;
+  text-decoration: none;
 }
 
-.cover__background::before {
-	content: ""; /* Обязательное свойство для псевдоэлементов :before / :after */
+.cover__background::after {
+	content: "";
 	display: block;
 	position: absolute; /* Позиционируем относительно родителя */
 	top: 0;
@@ -23,9 +23,10 @@
 	height: 100%;
 	background-color:#2A2C2F; /* Задаём полупрозрачный фон */
 	z-index: -1; /* Убираем под текст */
+  opacity: 0.3;
 }
 
 .cover__background:hover {
+	background-color:#2A2C2F; /* Задаём полупрозрачный фон */
   opacity: 0.8;
-  border: 1px solid red;
 }
