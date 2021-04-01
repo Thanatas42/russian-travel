@@ -1,9 +1,7 @@
 .cover__background {
-  position:absolute;
+  display: block;
   height:100%;
   width:100%;
-  top:0;
-  left:0;
   z-index: -1;
   -webkit-transition: .3s;
   -o-transition: .3s;
