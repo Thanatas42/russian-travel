@@ -6,7 +6,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-box/header__lang-box.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/underline/_active/underline_active.css);
+@import url(../blocks/header/__lang-link/_underline/_active/underline_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
