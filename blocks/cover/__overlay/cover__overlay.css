@@ -1,18 +1,11 @@
-.cover__background {
-  display: block;
+.cover__overlay {
   height:100%;
   width:100%;
-  z-index: -1;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
-  color:#2A2C2F;
   text-decoration: none;
 }
 
-.cover__background::after {
+.cover__overlay::before {
 	content: "";
-	display: block;
 	position: absolute; /* Позиционируем относительно родителя */
 	top: 0;
 	left: 0;
@@ -22,9 +15,14 @@
 	background-color:#2A2C2F; /* Задаём полупрозрачный фон */
 	z-index: -1; /* Убираем под текст */
   opacity: 0.3;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
 }
 
-.cover__background:hover {
-	background-color:#2A2C2F; /* Задаём полупрозрачный фон */
+.cover__overlay:hover::before {
   opacity: 0.8;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
 }
