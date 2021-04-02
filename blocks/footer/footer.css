@@ -1,36 +1,36 @@
 .footer {
-  padding: 64px 0 24px 16px;
-  margin: 0;
-  color: #FFFFFF;
+	padding: 64px 0 24px 16px;
+	margin: 0;
+	color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    padding: 88px 24px 24px;
-  }
+	.footer {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: end;
+		-ms-flex-align: end;
+		align-items: flex-end;
+		padding: 88px 24px 24px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .footer {
-    padding: 92px 48px 24px;
-  }
+	.footer {
+		padding: 92px 48px 24px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    margin: auto;
-    padding-top: 92px;
-    padding-right: 0;
-    padding-left: 0;
-    width: calc(1280px - 96px);
-  }
+	.footer {
+		margin: auto;
+		padding-top: 92px;
+		padding-right: 0;
+		padding-left: 0;
+		width: calc(1280px - 96px);
+	}
 }

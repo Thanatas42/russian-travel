@@ -6,14 +6,13 @@
 
 .cover__overlay::before {
 	content: "";
-	position: absolute; /* Позиционируем относительно родителя */
+	position: absolute;
 	top: 0;
 	left: 0;
-	/* Растягиваем на всю ширину и высоту */
 	width: 100%;
 	height: 100%;
-	background-color:#2A2C2F; /* Задаём полупрозрачный фон */
-	z-index: -1; /* Убираем под текст */
+	background-color:#2A2C2F;
+	z-index: -1;
   opacity: 0.3;
   -webkit-transition: .3s;
   -o-transition: .3s;

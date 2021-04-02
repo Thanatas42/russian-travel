@@ -9,9 +9,9 @@
   line-height: 1.63;
   margin: 0;
   -webkit-margin-before: 0;
-          margin-block-start: 0;
+  margin-block-start: 0;
   -webkit-margin-after: 0;
-          margin-block-end: 0;
+  margin-block-end: 0;
 }
 
 @media screen and (min-width: 1024px) {
