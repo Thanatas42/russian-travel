@@ -7,7 +7,7 @@
 	z-index: 1;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) { /*очень глупо опечатался*/
 	.cover {
 		min-height: 480px;
 	}
