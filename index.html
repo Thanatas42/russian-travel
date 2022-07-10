@@ -8,18 +8,16 @@
   <title>Путешествие по России</title>
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./image/open-russia.svg">
-  <meta name="description" content="Адаптивный сайт на тему туризма по России">
-  <meta name="autor" content="Дмитрий Дудин">
+  <meta name="description" content="Adaptive website on the topic of tourism in Russia">
+  <meta name="autor" content="Dmitry Dudin">
 </head>
 
 <body class="body">
   <header class="header">
     <img class="header__logo" src="./image/header-logo.svg" alt="Россия">
     <ul class="header__lang-box">
-      <li><a class="header__lang-link header__lang-link_underline_active">Ru</a></li>
-      <!--Решил вернуть такого типа модификатор, просто что бы избежать лишних ошибок и
-        пройти автотест Яндекса, в будущем думаю сделать на вариант "можно лучше"-->
-      <li><a class="header__lang-link">En</a></li>
+      <li><a id='ruLang' class="header__lang-link header__lang-link_underline_active">Ru</a></li>
+      <li><a id='enLang' class="header__lang-link">En</a></li>
     </ul>
   </header>
   <main>
@@ -164,6 +162,7 @@
     </nav>
     <p class="footer__copyright">&copy;2021. Дудин Дмитрий</p>
   </footer>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>
