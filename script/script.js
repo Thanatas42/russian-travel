@@ -43,9 +43,18 @@ const airports = intro.querySelector('#airports');
 const places = document.querySelector('.places');
 const placeArr = places.querySelectorAll('.place');
 
-const cover = document.querySelector('.cover');
-const coverTitle = cover.querySelectorAll('.cover__title');
-const coverSubtitle = cover.querySelectorAll('.cover__subtitle');
+const coverTitle = document.querySelector('.cover__title');
+const coverSubtitle = document.querySelector('.cover__subtitle');
+
+const footer = document.querySelector('.footer');
+const footerLinks = footer.querySelector('.footer__links');
+
+const footerMaps = footerLinks.querySelector('#maps');
+const footerWeather = footerLinks.querySelector('#weather');
+const footerSchedule = footerLinks.querySelector('#schedule');
+const footerCalendar = footerLinks.querySelector('#calendar');
+const footerTravel = footerLinks.querySelector('#travel');
+const footerAuthor = footer.querySelector('.footer__copyright');
 
 function fillingCards(count) {
   if (currentLang.textContent === 'Ru')
@@ -120,6 +129,15 @@ function localPlace() {
   })
 }
 
+function localFooterLinks() {
+  linksArr.forEach((item, count) => {
+    const [title, paragraph1, paragraph2] = fillingCards(count);
+    item.querySelector('.place__title').textContent = title;
+    item.querySelector('#paragraph1').textContent = paragraph1;
+    item.querySelector('#paragraph2').textContent = paragraph2;
+  })
+}
+
 
 function switchRusLanguage() {
   title.textContent = "Путешествия по России";
@@ -144,7 +162,14 @@ function switchRusLanguage() {
 
   coverTitle.textContent = "До Байкала на собаках";
   coverSubtitle.textContent = "По мотивам учебной темы о Транссибе путешествие от столицы до Байкала на электричках.";
-  console.log(coverTitle, coverSubtitle);
+
+  footerMaps.textContent = "Карты";
+  footerWeather.textContent = "Погода";
+  footerSchedule.textContent = "Расписание";
+  footerCalendar.textContent = "Календарь";
+  footerTravel.textContent = "Путешествия";
+
+  footerAuthor.innerHTML = "<p class=\"footer__copyright\">&copy;2021 Дудин Дмитрий</p>";
 }
 
 function switchEngLanguage() {
@@ -171,5 +196,12 @@ function switchEngLanguage() {
 
   coverTitle.textContent = "To Baikal by dogs";
   coverSubtitle.textContent = "Based on the educational topic about the Trans-Siberian Railway, a journey from the capital to Lake Baikal by train.";
-  console.log(coverTitle, coverSubtitle);
+
+  footerMaps.textContent = "Maps";
+  footerWeather.textContent = "Weather";
+  footerSchedule.textContent = "Schedule";
+  footerCalendar.textContent = "Calendar";
+  footerTravel.textContent = "Travel";
+
+  footerAuthor.innerHTML = "<p class=\"footer__copyright\">&copy;2021 Dudin Dmitry</p>";
 }
