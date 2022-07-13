@@ -1,20 +1,25 @@
 .lead {
-  max-width: 100vw;
-  padding-top: 48px;
-  color: #FFFFFF;
+  width: 100vw;
+  padding-top: 32px;
+  color: #fff;
   margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.lead {
+    padding-top: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    max-width: calc(1024px - 96px);
-    padding-top: 48px;
+    max-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    max-width: calc(1280px - 296px);
-    padding-top: 56px;
+    max-width: 984px;
+    padding-top: 28px;
   }
 }
