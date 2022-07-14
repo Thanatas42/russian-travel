@@ -2,7 +2,7 @@
 ## Описание
 ### Статическая веб-страница посвященная путешествиям по стране.
  Основная цель данного проекта - освоение ряда технологий веб-разработки. В проекте применялись:
-  - Адаптивная вертска. Страница корректно выглядит на популярных разрешениях.
+  - Адаптивная верстка. Страница корректно выглядит на популярных разрешениях.
   - Grid Layout. Построение сетки изображений на гридах - как альтернатива flex
   - JS script. Опциональный функционал, не является обязательным согласно ТЗ.
   - Знакомство с Figma. Макет выполнен в сервисе разработки интерфейсов.
@@ -34,7 +34,7 @@ through a script connected to an HTML document. The script is written in one fil
 
 ## Project Brief
 
-[Layout](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile ?node-id=28503%3A0)<br/>
+[Layout](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)<br/>
 
-[Project](https://thanatas42.github.io/russian-travel /)<br/>
+[Project](https://thanatas42.github.io/russian-travel/)<br/>
 
